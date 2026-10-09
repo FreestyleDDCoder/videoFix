@@ -7,3 +7,19 @@ ffmpeg-*
 libav-*
 build
 *.pro.user
+
+# codechat/codeindex artifacts
+.codeindex/
+.spec/
+
+# gradle build outputs
+android-lib/build/
+android-lib/untrunc-lib/build/
+android-lib/.gradle/
+android-lib/local.properties
+
+# exception: android untrunc-lib sources
+!android-lib/untrunc-lib/
+!android-lib/untrunc-lib/**
+android-lib/untrunc-lib/build/
+android-lib/untrunc-lib/.cxx/
